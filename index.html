@@ -389,36 +389,6 @@
         crossorigin="anonymous"></script>
 
 
-    <script>
-        // Data skill Anda
-        var skillData = {
-            labels: ["HTML", "CSS", "JavaScript"],
-            datasets: [
-                {
-                    label: "Skill",
-                    backgroundColor: ["#3498db", "#2ecc71", "#f39c12"],
-                    data: [90, 80, 75], // Sesuaikan dengan tingkat skill Anda
-                },
-            ],
-        };
-
-        // Inisialisasi Chart
-        var ctx = document.getElementById("skillChart").getContext("2d");
-        var myBarChart = new Chart(ctx, {
-            type: "bar",
-            data: skillData,
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 100,
-                    },
-                },
-            },
-        });
-    </script>
-
-
 </body>
 
 
